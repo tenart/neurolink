@@ -1,0 +1,143 @@
+body {
+    min-width: 800px;
+    background: url(../images/bg.png) no-repeat center bottom fixed;
+    background-size: 100% auto;
+}
+
+#nav {
+    padding: 10px 0;
+    text-align: center;
+    background: #159cff url(../images/nav.png) repeat-x center center;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    min-width: 600px;
+    opacity: 0.93;
+    margin-top: -50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+#nav img {
+    width: 25px;
+    margin-top: -10px;
+    vertical-align: middle;
+    margin-right: 3%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav a {
+    color: #fff;
+    text-decoration: none;
+    font: 20px 'Oswald';
+    margin: 3%;
+}
+
+#main_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#header {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#header img {
+    width: 400px;    
+}
+
+#header span {
+    display: block;
+    margin-top: -20px;
+}
+
+#header span img {
+    display: block;
+    margin: 0 auto 20px;;
+}
+
+#header h3 {
+    font: 30px 'Oswald', sans-serif;
+    color: #656565;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+#main_desc {
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+p {
+    font: 18px sans-serif;
+    line-height: 1.2;
+    color: #656565;
+    margin-top: 10px;
+}
+
+#main_desc h2 {
+    font: 25px 'Oswald', sans-serif;
+    color: #16a7f4;
+    margin-top: 20px;
+}
+
+#column_layout {
+    width: 100%;
+    margin-top: 50px;
+}
+
+td:nth-child(1) {
+    border: none;
+}
+
+td {
+    padding: 0 20px;
+    width: 25%;
+    text-align: justify;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+td:nth-child(1) {
+}
+
+#column_layout h2 {
+    font: 25px 'Oswald', sans-serif;
+    color: #16a7f4;
+    text-align: center;
+}
+
+#column_layout p {
+    margin-bottom: 20px;
+}
+
+#column_layout a {
+    display: block;
+    font: 15px 'Oswald', sans-serif;
+    color: #159cff;
+    padding: 5px 10px;
+    border: 1px solid rgba(21, 156, 255, 0.3);
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.download {
+    background: url(../images/downloadicn.png) 95% center no-repeat;
+}
+
+.external {
+    background: url(../images/linkicn.png) 95% center no-repeat;
+}
+
+#footer {
+    text-align: center;
+    margin: 50px 0 20px;
+    opacity: 0.5;
+}
